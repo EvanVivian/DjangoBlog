@@ -1,18 +1,22 @@
-## Django搭建博客
+> psj商城
 
-使用Django快速搭建博客
-### 要求
-* Python: 3.x
-* Django: 1.10.x
+**1.项目概述**
 
+Django Rest Framework搭建的前后端分离项目。
 
-### 特点
+通过sentry完成错误日志的监控和告警。
 
-* markdown 渲染，代码高亮
-* 文章评论
-* 文章分类
-* 博文归档
-* 文章标签云
-* 搜索功能
+**2.项目特点**
 
+VUE前端+DRF实现前台api+Xadmin后台管理+错误日志监控+第三方登录。
 
+**3.项目运行环境**
+
+python 3.5.2   
+Django 1.11.2(已升级Django 2.0.2)
+
+依赖 requirements.txt
+
+**4.备注**
+
+执行py脚本文件进行导入数据，先执行category文件，导入类别，再导入商品，否则会出错。
